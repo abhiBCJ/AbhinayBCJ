@@ -49,12 +49,12 @@
                                     <form:input path="tittle" type="text" id="tittle" />
                                     <br />
 
-                                    <label for=date>Scheduled date</label>
+                                    <label for=date>Appointment Date</label>
                                     <br>
                                     <form:input path="date" type="date" id="eventDate" />
                                     <br />
 
-                                    <label for=time>Scheduled time</label>
+                                    <label for=time>Appointment time</label>
                                     <br>
                                     <form:input path="time" type="time" id="eventTime" />
                                     <br />
@@ -67,7 +67,7 @@
                                     <div class="modal-footer">
                                         <button type="button" id="btnPopupCancel" class="btn btn-default" data-dismiss="modal">Close</button>
                                         <button type="submit" id="btnPopupSave" class="btn btn-primary">Save
-								Event</button>
+								Appointment</button>
                                     </div>
                                 </form:form>
                             </div>
@@ -89,17 +89,17 @@
 
                                     <form:input path="id" type="hidden" id="id" />
 
-                                    <label for=tittle>Event title</label>
+                                    <label for=tittle>Tittle</label>
                                     <br>
                                     <form:input path="tittle" type="text" id="tittle" />
                                     <br />
 
-                                    <label for=date>Scheduled date</label>
+                                    <label for=date>Appointment date</label>
                                     <br>
                                     <form:input path="date" type="date" id="eventDate" />
                                     <br />
 
-                                    <label for=time>Scheduled time</label>
+                                    <label for=time>Appointment time</label>
                                     <br>
                                     <form:input path="time" type="time" id="eventTime" />
                                     <br />
@@ -111,8 +111,7 @@
 
                                     <div class="modal-footer">
                                         <button type="button" id="btnPopupCancel" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        <button type="submit" id="btnDelete" class="btn btn-warning" data-dismiss="modal">Delete</button>
-                                        <button type="submit" id="btnUpdate" class="btn btn-primary">Save Event</button>
+                                        <button type="submit" id="btnUpdate" class="btn btn-primary">update Appointment</button>
                                     </div>
                                 </form:form>
                             </div>
