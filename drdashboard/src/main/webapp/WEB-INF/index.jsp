@@ -44,7 +44,7 @@
                             <div class="modal-body">
                                 <form:form commandName="event" action="saveEvent" method="post" id="submitForm">
 
-                                    <label for=tittle>Event title</label>
+                                    <label for=tittle>Tittle</label>
                                     <br>
                                     <form:input path="tittle" type="text" id="tittle" />
                                     <br />
